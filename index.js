@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
 const chalk = require('chalk');
-const Canvas = require('canvas');
 const snekfetch = require('snekfetch');
 const fs = require('fs');
 require('./util/eventLoader')(client);
